@@ -11,6 +11,7 @@
         <TextBlock x:Name="NombreTextBlock" HorizontalAlignment="Left" Margin="164,111,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
         <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="23" Margin="164,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" TextChanged="TextBox_TextChanged"/>
         <Button x:Name="AceptarButton" Content="Aceptar" Margin="373,135,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" Click="AceptarButton_Click"/>
+        <Button x:Name="LimpiarButton" Content="Limpiar" HorizontalAlignment="Left" Margin="471,135,0,0" VerticalAlignment="Top" Width="75" Click="LimpiarButton_Click"/>
 
     </Grid>
 </Window>
