@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Hola mundo!" Height="450" Width="800">
+        Title="Hola mundo!" Height="450" Width="800" Icon="hand_driller_tool.ico">
     <Grid>
         <TextBlock x:Name="SaludoTextBlock" Margin="164,10,164,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.132,-1.522" FontSize="72" Foreground="#FF8F1E1E"><Run Text="Hola "/><Run Text="mundo!"/></TextBlock>
         <TextBlock x:Name="NombreTextBlock" HorizontalAlignment="Left" Margin="164,111,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
